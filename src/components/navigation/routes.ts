@@ -6,10 +6,10 @@ type Route = {
 export const routes : Route[] = [
     {
         name: "Home",
-        href: "/"
+        href: "./"
     },
     {
         name: "About",
-        href: "/about"
+        href: "./about"
     }
 ]
