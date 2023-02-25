@@ -1,4 +1,4 @@
-import { A } from "solid-start";
+import { A } from "solid-start"
 
 export default function NotFound() {
   return (
@@ -11,6 +11,7 @@ export default function NotFound() {
         <a
           href="https://solidjs.com"
           target="_blank"
+          rel="noopener noreferrer"
           class="text-sky-600 hover:underline"
         >
           solidjs.com
@@ -27,5 +28,5 @@ export default function NotFound() {
         </A>
       </p>
     </main>
-  );
+  )
 }
