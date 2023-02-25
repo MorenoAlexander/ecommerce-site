@@ -8,7 +8,7 @@ type ProductGridProps = {
 
 export default function ProductGrid({ products }: ProductGridProps) {
   return (
-    <div class="flex justify-evenly flex-wrap">
+    <div class="flex flex-wrap mx-auto align-middle justify-items-center justify-center">
       <For each={products} fallback={<div>Loading...</div>}>
         {(product) => <ProductCard product={product} data-index={product.id} />}
       </For>
